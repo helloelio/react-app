@@ -1,17 +1,23 @@
-root = true
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-[*]
-indent_style = space
-indent_size = 4
-end_of_line = crlf
-charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-[*.js]
-indent_style = space
-indent_size = 2
+# testing
+/coverage
 
-[*.{json,md}]
-indent_size = 2
-node_modules
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

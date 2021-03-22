@@ -2,19 +2,25 @@
   width: 100%;
   display: flex;
   align-items: flex-start;
-  background-color: rgb(4, 4, 32);
 }
 .header__main {
   padding: 30px 50px;
 }
 .header__content {
+  background-image: url(./bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 128px;
 }
 .header__title {
+  filter: drop-shadow(0 0 3px rgba(100, 50, 150, 50));
   font-size: 5em;
+}
+.hello {
+  color: tomato;
 }
 .header__subtitle {
   font-size: 2em;

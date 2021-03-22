@@ -16,20 +16,19 @@ function Header() {
             <a href="/">doc</a>
           </li>
           <li className="navigation__item">
-            <a href="/">github</a>
+            <a href="https://github.com/helloelio">Github</a>
           </li>
         </ul>
       </nav>
       <div className="header__content">
         <div className="header__main">
-          <h1 className="header__title">Hello React</h1>
-          <p className="header__subtitle">Первая работа с react</p>
-        </div>
-        <div className="support__header">
+          <h1 className="header__title">
+            <span className="hello"> Hello</span> <br />
+            my name is Gleb
+          </h1>
           <p className="header__subtitle">
-            lfowepf digo[ne gjfdgrpem gffsdpg erl ppe emegmeor mpm pmfd
-            ngzdngojf;'gjm jerj jope ahsiohfdiosneraen fvnfs
-            io'gnreiongfo'zng'odg herio
+            I am learned <br />
+            Frontend-development
           </p>
         </div>
       </div>

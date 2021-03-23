@@ -5,6 +5,7 @@
   margin-bottom: 50px;
 }
 .main__title {
+  text-align: center;
   font-size: 5em;
   padding: 40px;
 }
@@ -49,7 +50,7 @@
   background-color: springgreen;
   animation: 3s skillsForJs ease-in-out;
 }
-/* .main__list > li:nth-child(4):after {
+.main__list > li:nth-child(4):after {
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -58,9 +59,9 @@
   width: 15%;
   background-color: springgreen;
   animation: 3s skillsForReact ease-in-out;
-} */
+}
 
-/* media */
+/* media max wigth */
 @media (max-width: 527px) {
   .main__title {
     font-size: 3em;
@@ -72,6 +73,18 @@
     padding: 1em 1em;
   }
 }
+/* media min width */
+@media (min-width: 568px) {
+  .main {
+    margin-bottom: 130px;
+  }
+}
+@media (min-width: 815px) {
+  .main__list {
+    max-width: 700px;
+  }
+}
+
 /* media */
 
 /* animations */

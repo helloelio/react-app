@@ -5,7 +5,7 @@ import gh from './gh.png';
 const Footer = () => {
   return (
     <footer className="footer">
-      <span>Check my other projects</span>
+      <span>Build with React by</span>
 
       <a className="github" href="https://github.com/helloelio">
         {' '}

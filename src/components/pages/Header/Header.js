@@ -7,13 +7,13 @@ function Header() {
       <nav className="navigation">
         <ul className="navigation__list">
           <li className="navigation__item">
-            <a href="/">home</a>
+            <a href="/react-app">home</a>
           </li>
           <li className="navigation__item">
-            <a href="../About/About.js">about</a>
+            <a href="/react-app">about</a>
           </li>
           <li className="navigation__item">
-            <a href="/">doc</a>
+            <a href="/react-app">doc</a>
           </li>
           <li className="navigation__item">
             <a href="https://github.com/helloelio">Github</a>

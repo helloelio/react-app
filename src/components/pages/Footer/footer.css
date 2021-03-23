@@ -3,20 +3,36 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-
+  align-items: center;
+  font-weight: bold;
   position: fixed;
   bottom: 0;
+  left: 0;
 }
 .github {
+  color: rgba(0, 0, 0, 0.705);
   margin-right: 20px;
   display: flex;
   align-items: center;
+  text-transform: uppercase;
 }
 span {
   width: 100%;
   padding: 12px;
 }
 img {
+  margin-right: 10px;
   width: 20px;
   height: 20px;
+}
+
+@media (min-width: 568px) {
+  .footer {
+    padding: 20px 0;
+    font-size: 1.5em;
+  }
+  img {
+    width: 30px;
+    height: 30px;
+  }
 }

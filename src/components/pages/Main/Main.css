@@ -49,7 +49,7 @@
   background-color: springgreen;
   animation: 3s skillsForJs ease-in-out;
 }
-.main__list > li:nth-child(4):after {
+/* .main__list > li:nth-child(4):after {
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -58,7 +58,7 @@
   width: 15%;
   background-color: springgreen;
   animation: 3s skillsForReact ease-in-out;
-}
+} */
 
 /* media */
 @media (max-width: 527px) {

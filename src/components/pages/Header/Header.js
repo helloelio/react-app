@@ -10,7 +10,7 @@ function Header() {
             <a href="/">home</a>
           </li>
           <li className="navigation__item">
-            <a href="/main.js">about</a>
+            <a href="../About/About.js">about</a>
           </li>
           <li className="navigation__item">
             <a href="/">doc</a>

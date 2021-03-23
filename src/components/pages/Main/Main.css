@@ -1,3 +1,4 @@
+/* main styles */
 .main {
   width: 100%;
   /* background-color: rgb(32, 9, 54); */
@@ -8,11 +9,58 @@
   padding: 40px;
 }
 .main__list {
-  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
 }
 .main__list > li {
+  position: relative;
+  font-size: 2em;
   margin-bottom: 1em;
+  border-bottom: 2px solid tomato;
+  transition: 0.3s;
 }
+.main__list > li:nth-child(1):after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 98%;
+  content: '';
+  height: 2px;
+  background-color: springgreen;
+  animation: 3s skillsForHtml ease-in-out;
+}
+.main__list > li:nth-child(2):after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  content: '';
+  height: 2px;
+  width: 90%;
+  background-color: springgreen;
+  animation: 3s skillsForCss ease-in-out;
+}
+.main__list > li:nth-child(3):after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  content: '';
+  height: 2px;
+  width: 50%;
+  background-color: springgreen;
+  animation: 3s skillsForJs ease-in-out;
+}
+.main__list > li:nth-child(4):after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background-color: springgreen;
+  animation: 3s skillsForReact ease-in-out;
+}
+
+/* media */
 @media (max-width: 527px) {
   .main__title {
     font-size: 3em;
@@ -24,3 +72,39 @@
     padding: 1em 1em;
   }
 }
+/* media */
+
+/* animations */
+@keyframes skillsForHtml {
+  from {
+    width: 0;
+  }
+  to {
+    width: 98;
+  }
+}
+@keyframes skillsForCss {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80;
+  }
+}
+@keyframes skillsForJs {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50;
+  }
+}
+@keyframes skillsForReact {
+  from {
+    width: 0;
+  }
+  to {
+    width: 15;
+  }
+}
+/* animations */

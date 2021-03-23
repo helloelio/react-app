@@ -1,10 +1,22 @@
 .footer {
   background-color: rgb(129, 52, 38);
   width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+
   position: fixed;
   bottom: 0;
 }
+.github {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
 span {
-  padding: 20px;
+  width: 100%;
+  padding: 12px;
+}
+img {
+  width: 20px;
+  height: 20px;
 }

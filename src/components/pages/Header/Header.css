@@ -31,8 +31,14 @@
   position: fixed;
   width: 100%;
   max-width: 1440px;
-  padding: 20px 0;
-  background-color: slategrey;
+  padding: 15px 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(20, 29, 46, 1) 91%,
+    rgba(0, 212, 255, 1) 100%
+  );
   z-index: 100;
 }
 .navigation__list {
@@ -44,6 +50,9 @@
   font-size: 1.2em;
   text-transform: uppercase;
 }
+.navigation__item > a {
+  display: block;
+}
 .navigation__item:hover {
   text-decoration: underline;
 }
@@ -53,7 +62,7 @@
     margin-bottom: 64px;
   }
   .navigation__item {
-    font-size: 0.5em;
+    font-size: 1em;
   }
   .header__content {
     margin-top: 64px;

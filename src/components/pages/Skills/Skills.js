@@ -19,7 +19,7 @@ const Skills = () => {
         </section>
         <section id="acc2">
           <h2>
-            <a href="#acc2">Css</a>
+            <a href="#acc2">Css / SCSS</a>
           </h2>
           <ul>
             <li>1.Display</li>
@@ -31,7 +31,7 @@ const Skills = () => {
         </section>
         <section id="acc3">
           <h2>
-            <a href="#acc3">Javascript</a>
+            <a href="#acc3">Javascript / React</a>
           </h2>
           <ul>
             <li>1.Syntax and Basic Consructs</li>
@@ -41,9 +41,11 @@ const Skills = () => {
         </section>
         <section id="acc4">
           <h2>
-            <a href="#acc4">React</a>
+            <a href="#acc4">git / npm / webpack</a>
           </h2>
-          <p>This content appears on page 4.</p>
+          <ul>
+            <li>1.test</li>
+          </ul>
         </section>
       </article>
     </section>

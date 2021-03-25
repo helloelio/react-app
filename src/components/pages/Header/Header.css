@@ -17,7 +17,7 @@
   margin-top: 128px;
 }
 .header__title {
-  filter: drop-shadow(0 0 3px rgba(100, 50, 150, 50));
+  filter: drop-shadow(0 0 3px #00d5ff96);
   font-size: 5em;
 }
 .hello {

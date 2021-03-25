@@ -1,4 +1,5 @@
 import React from 'react';
+import Skills from '../Skills/Skills';
 import './Main.css';
 
 function Main() {
@@ -11,6 +12,7 @@ function Main() {
         <li>JAVASCRIPT</li>
         <li>REACT</li>
       </ul>
+      <Skills />
     </main>
   );
 }

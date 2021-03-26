@@ -27,7 +27,7 @@ function Header() {
             my name is Gleb
           </h1>
           <p className="header__subtitle">
-            I am learned <br />
+            I am learning <br />
             Frontend-development
           </p>
         </div>

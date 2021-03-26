@@ -3,91 +3,50 @@
   font-size: 4em;
   text-align: center;
 }
-article.accordion {
-  display: block;
-  width: 31em;
+.horizontal-click {
+  background-color: rgba(204, 204, 204, 0.1);
+  box-shadow: 5px 5px 15px 3px #000000;
+  max-width: 300px;
   margin: 0 auto;
-  background-color: rgba(255, 250, 240, 0.05);
-  overflow: auto;
-  border-radius: 5px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  color: #ccc;
 }
-article.accordion section {
-  position: relative;
-  display: block;
-  float: left;
-  width: 2em;
-  height: 12em;
-  margin: 0.5em 0 0.5em 0.5em;
-  color: black;
-  background-color: white;
+.horizontal-click [name='vkl'] {
+  display: none;
+  margin: 0 20px;
+}
+.horizontal-click > :not(input):not(label) {
   overflow: hidden;
-  border-radius: 3px;
+  height: 0;
+  padding: 0 0.5em;
+  border-top-style: none;
+  transition: 0.2s;
 }
-article.accordion section h2 {
-  position: absolute;
-  font-size: 1em;
-  font-weight: bold;
-  width: 12em;
-  height: 2em;
-  top: 12em;
-  left: 0;
-  text-indent: 1em;
-  padding: 0;
-  margin: 0;
-  color: black;
-  -webkit-transform-origin: 0 0;
-  -moz-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  -o-transform-origin: 0 0;
-  transform-origin: 0 0;
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
-article.accordion section h2 a {
+.horizontal-click > label {
+  border-bottom: 5px solid black;
+  overflow: hidden;
   display: block;
-  width: 100%;
-  line-height: 2em;
-  text-decoration: none;
-  color: inherit;
-  outline: 0 none;
+  padding: 0.5em 1em;
+  background: rgba(204, 204, 204, 0.4);
+  color: #ccc;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
 }
-article.accordion section:target {
-  width: 20em;
-  padding: 0 1em;
-  color: #333;
-  background-color: rgba(255, 255, 255, 0.103);
+.horizontal-click > :checked + label + * {
+  overflow: auto;
+  padding: 20px;
+  height: 100%;
 }
-article.accordion section:target h2 {
-  position: static;
-  font-size: 1.3em;
-  text-indent: 0;
-  color: #fff;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-article.accordion section,
-article.accordion section h2 {
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
+.horizontal-click > :checked + label {
+  background: rgba(204, 204, 204, 0.4);
+  cursor: pointer;
 }
 ul {
   color: white;
 }
-@media (max-width: 528px) {
-  article.accordion {
-    width: 19em;
+
+@media (min-width: 815px) {
+  .horizontal-click {
+    max-width: 700px;
   }
-  article.accordion section:target {
-    width: 8em;
-  }
-} ;
+}

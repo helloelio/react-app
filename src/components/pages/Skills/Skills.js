@@ -32,7 +32,11 @@ const Skills = () => {
         </ul>
         <input type="radio" name="vkl" id="vkl4" />
         <label for="vkl4">webpack / npm </label>
-        <div>webpack</div>
+        <div>
+          <ul>
+            <li>1.Basic webpack assembly</li>
+          </ul>
+        </div>
       </div>
     </section>
   );

@@ -5,7 +5,6 @@ const Skills = () => {
   return (
     <section className="Skills">
       <h1 className="skills__title">More about what i know</h1>
-
       <div className="horizontal-click">
         <input type="radio" name="vkl" id="vkl1" />
         <label for="vkl1">Html</label>

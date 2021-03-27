@@ -3,6 +3,9 @@
   font-size: 4em;
   text-align: center;
 }
+ul {
+  color: white;
+}
 .horizontal-click {
   background-color: rgba(204, 204, 204, 0.1);
   box-shadow: 5px 5px 15px 3px #000000;
@@ -41,12 +44,5 @@
   background: rgba(204, 204, 204, 0.4);
   cursor: pointer;
 }
-ul {
-  color: white;
-}
-
 @media (min-width: 815px) {
-  .horizontal-click {
-    max-width: 700px;
-  }
 }

@@ -30,7 +30,7 @@ ul {
   overflow: hidden;
   display: block;
   padding: 0.5em 1em;
-  background: rgba(204, 204, 204, 0.4);
+  background: rgba(204, 204, 204, 0.1);
   color: #ccc;
   white-space: nowrap;
   text-overflow: ellipsis;

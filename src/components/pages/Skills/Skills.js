@@ -22,6 +22,7 @@ const Skills = () => {
           <li>3.Css Grid</li>
           <li>4.Flex Box</li>
           <li>5.Responsive disign and Media Queries</li>
+          <li>6.</li>
         </ul>
         <input type="radio" name="vkl" id="vkl3" />
         <label for="vkl3">JavaScript / React</label>
@@ -34,9 +35,11 @@ const Skills = () => {
         <label for="vkl4">webpack / npm </label>
         <div>
           <ul>
-            <li>1.Basic webpack assembly</li>
-            <li>2.npm scripts</li>
+            <li>1.npm scripts</li>
+            <li>2.Basic webpack assembly</li>
             <li>3.Gulp</li>
+            <li>4.Vite</li>
+            <li>5.Pacrel</li>
           </ul>
         </div>
       </div>

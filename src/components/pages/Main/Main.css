@@ -81,7 +81,7 @@
     margin-bottom: 130px;
   }
 }
-@media (min-width: 815px) {
+@media (min-width: 767px) {
   .main__list {
     max-width: 700px;
   }

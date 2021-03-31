@@ -17,7 +17,8 @@
   margin-top: 128px;
 }
 .header__title {
-  filter: drop-shadow(0 0 3px #00d5ff96);
+  filter: drop-shadow(3px -3px 0 #000000);
+  color: #ffffff;
   font-size: 5em;
 }
 .hello {
@@ -91,7 +92,6 @@
     width: 70%;
     height: 2px;
     background-color: brown;
-
     margin-bottom: 1em;
   }
 }

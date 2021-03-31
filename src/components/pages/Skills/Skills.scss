@@ -1,6 +1,6 @@
 .skills__title {
   padding: 25px;
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
 }
 ul {
@@ -25,27 +25,34 @@ ul {
   border-top-style: none;
   transition: 0.2s;
 }
-.horizontal-click > label {
-  border-bottom: 5px solid black;
-  overflow: hidden;
-  display: block;
-  padding: 0.5em 1em;
-  background: rgba(204, 204, 204, 0.1);
-  color: #ccc;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  cursor: pointer;
+.horizontal-click {
+  label {
+    border-bottom: 5px solid black;
+    overflow: hidden;
+    display: block;
+    padding: 0.5em 1em;
+    background: rgba(204, 204, 204, 0.1);
+    color: #ccc;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
 }
-.horizontal-click > :checked + label + * {
-  overflow: auto;
-  padding: 20px;
-  height: 100%;
+.horizontal-click {
+  :checked + label + * {
+    overflow: auto;
+    padding: 20px;
+    height: 100%;
+  }
 }
-.horizontal-click > :checked + label {
-  background: rgba(204, 204, 204, 0.4);
-  cursor: pointer;
+.horizontal-click {
+  :checked + label {
+    background: rgba(204, 204, 204, 0.4);
+    cursor: pointer;
+  }
 }
-@media (min-width: 815px) {
+
+@media (min-width: 767px) {
   .horizontal-click {
     font-size: 2em;
     max-width: 700px;

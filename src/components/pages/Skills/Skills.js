@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css';
+import './Skills.scss';
 
 const Skills = () => {
   return (
@@ -35,6 +35,8 @@ const Skills = () => {
         <div>
           <ul>
             <li>1.Basic webpack assembly</li>
+            <li>2.npm scripts</li>
+            <li>3.Gulp</li>
           </ul>
         </div>
       </div>
